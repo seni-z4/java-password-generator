@@ -35,9 +35,11 @@ public class PasswordGenerator {
 		System.out.println("inserici il tuo anno di nascita");
 		int anno = input.nextInt();
 		
+		int sommaAnni = (giorno + mese+anno);
+		System.out.println(sommaAnni);
 		
 		
-		System.out.println(nome + cognome + colore + giorno + mese + anno);
+		System.out.println("#password generato e#: " +nome+cognome+colore+sommaAnni);
 		
 	}
 	
